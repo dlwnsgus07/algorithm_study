@@ -47,7 +47,7 @@ def road(x, y):
     # return False
 
 
-# 뒤지게 어렵다....
+# 징챠 어렵다....
 
 
 print(road(0, 0))

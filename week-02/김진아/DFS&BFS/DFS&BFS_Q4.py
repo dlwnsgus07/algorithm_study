@@ -1,4 +1,4 @@
-# PART 03 16번 특정 거리의 도시 찾기
+# PART 03 16번 연구소
 N, M = map(int, input().split())
 
 temp = [[0]*M for _ in range(N)]
