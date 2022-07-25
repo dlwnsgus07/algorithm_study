@@ -4,7 +4,6 @@ array = list(map(int, input().split()))
 
 
 def binary_search(array, length, start, end):
-    global mid
     min_result = 0
     while start <= end:
         length_sum = 0
