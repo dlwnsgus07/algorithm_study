@@ -5,7 +5,7 @@ n = int(input())
 score = []
 for i in range (n):
     data = input().split()
-    score.append(data[0], int(data[1]), int(data[2]), int(data[3]))
+    score.append((data[0], int(data[1]), int(data[2]), int(data[3])))
 
 
 score2 = sorted(score, key = lambda data : (-data[1], data[2], -data[3], data[0]))
