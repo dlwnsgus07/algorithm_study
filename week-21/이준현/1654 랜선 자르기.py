@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(300000)
+
 k, n = map(int, input().split())
 arr = [int(input()) for _ in range(k)]
 
