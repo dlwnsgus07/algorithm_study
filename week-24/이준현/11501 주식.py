@@ -1,8 +1,7 @@
 import sys
 from collections import deque
 
-# 이 코드는 87프로에서 시간초과 뜬다.
-# 주식이 다음날 주식이 오르면 사고, 내리면 판다.
+
 input = sys.stdin.readline
 
 
@@ -22,6 +21,8 @@ for _ in range(test):
             ans += max_value - arr[i]
     print(ans)
 
+    # 이 코드는 87프로에서 시간초과 뜬다.
+    # 주식이 다음날 주식이 오르면 사고, 내리면 판다.
     # for i in arr:
     #     q.append(i)
     #     if i >= max_value:
