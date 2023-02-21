@@ -8,8 +8,8 @@ n, m = map(int, input().split())
 arr = [list(map(int, input().split())) for i in range(m)]
 dist = [[[MAX] * (horse_step + 1) for _ in range(n)] for _ in range(m)]
 # 왼쪽 위 아래, 왼쪽 위 위, 오른쪽 위위, 오른쪽 위 아래, 왼쪽 아래 위, 왼쪽 아래 아래, 오른쪽 아래 아래, 오른쪽 아래 위
-h_dx = [-1, -2, -2, -1, 1, 2, 2, 1]
-h_dy = [-2, -1, 1, 2, -2, 1, 1, 2]
+h_dx = [2, 2, 1, 1, -2, -2, -1, -1]
+h_dy = [1, -1, 2, -2, 1, -1, 2, -2]
 # 상 하 좌 우
 m_dx = [-1, 1, 0, 0]
 m_dy = [0, 0, -1, 1]
