@@ -21,5 +21,6 @@ def DFS(x, y):
         DFS(nx, ny)
         graph[x][y] = False
 
+
 DFS(1, 1)
 print(ans)
