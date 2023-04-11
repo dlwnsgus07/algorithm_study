@@ -13,9 +13,8 @@ for i in range(m):
     graph[b].append((a, d))
 
 q = deque()
-q.reverse();
+q.reverse()
 q.append((1, 0))
-q.ap
 distance[1] = 0
 while q:
     v, dist = q.popleft()
